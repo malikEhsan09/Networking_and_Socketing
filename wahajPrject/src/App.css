@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f8f9fa;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.control-buttons {
+  margin-top: 24px;
+}
