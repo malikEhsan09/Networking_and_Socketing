@@ -10,10 +10,12 @@ import {
 } from "react-router-dom";
 
 // ? Customs components used
-import Login from "../components/Login.jsx";
-import Signup from "../components/SignUp.jsx";
-import Dashboard from "../components/Dashboard.jsx";
-import "./App.css";
+import Login from "../pages/Login.jsx";
+import Signup from "../pages/SignUp.jsx";
+import Dashboard from "../pages/Dashboard.jsx";
+import Analytic from "../pages/Analytic.jsx";
+// import "./App.css";
+import "./index.css";
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/Analytics" element={<Analytic />} />
         </Routes>
       </div>
     </Router>

@@ -14,6 +14,7 @@ const Signup = () => {
       alert("Passwords do not match");
       return;
     }
+
     // Store credentials in localStorage
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
